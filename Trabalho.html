@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trabalho.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="list">
+        <h1>Lista de Tarefas</h1>
+        <div>
+            <input type="text" id="lista" placeholder="Adicionar nova tarefa">
+            <button onclick="addlista()">Adicionar</button>
+        </div>
+        <ul id="listaT"></ul>
+        <div>
+            <label>Filtrar por:</label>
+            <select id="filtro" onchange="filtro()">
+                <option value="todas">Todas</option>
+                <option value="pendente">Pendentes</option>
+                <option value="concluido">Concluídas</option>
+            </select>
+        </div>
+
+        <script src="trabalho.js"></script>
+    </div>
+</body>
+</html>

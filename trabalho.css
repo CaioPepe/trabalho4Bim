@@ -1,0 +1,29 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F4DFC8;
+}
+
+.list {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    background-color: #F4EAE0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #000000;
+}
